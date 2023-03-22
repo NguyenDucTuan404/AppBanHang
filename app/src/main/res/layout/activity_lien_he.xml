@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.LienHeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        app:title=" Liên Hệ"
+        android:background="#B2B4C1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="Thông tin về chúng tôi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="30dp"
+            android:textColorHint="@color/black"
+            android:drawableLeft="@drawable/ic_rename__24"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:hint="Nguyễn Đức Tuấn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="30dp"
+            android:textColorHint="@color/black"
+            android:drawableLeft="@drawable/ic_smartphone"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:hint="Facebook: Nguyễn Đức Tuấn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="30dp"
+            android:textColorHint="@color/black"
+            android:drawableLeft="@drawable/ic_email"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:hint="Email: tuan292011@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:hint="Điện thoại: 0379174390"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
